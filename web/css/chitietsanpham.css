@@ -1,0 +1,651 @@
+
+body {
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 1.5;
+    font-family: "Helvetica";
+    color: #000;
+}
+.heading{
+    letter-spacing: 3px;
+    font-weight: 540;
+    font-style: bold;
+    font-size: 19px;
+}
+/*header*/
+.headericon{
+    list-style-type: none;
+    width: 100%;
+    height: 30px;
+    display:flex;
+    float: right;
+    justify-content: flex-end;
+}
+.icon1{
+    color:black;
+    margin-left: 15px;
+    font-size:15px;
+}
+.icon1 a:hover{
+    color: green;
+}
+/*header item*/
+.header_item{
+    border-top: 1px solid rgb(0,0,0,0.3);
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    background-color:#fff;
+    width: 100%;
+    height: 100px;
+}
+.item_logo{
+    list-style-type: none;
+}
+.item_navbar{
+    list-style-type: none;
+    width:50% ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar a{
+    color: black;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: green;
+}
+.item_icon{
+    list-style-type: none;
+    display:flex;
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.item__icon{
+    margin-left: 40px;
+}
+.header_navbar{
+    position: absolute;
+    width: 200px;
+    background-color:#fff;
+    margin-top: 15px;
+    transform-origin: top left;
+    animation: headernavbar ease-in 0.2s;
+    display: none;
+}
+@keyframes headernavbar{
+    from{
+        transform:scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.navbar:hover .header_navbar{
+    display: block;
+    list-style: none;
+}
+.header_navbar-sanpham a{
+    color: #000;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: left;
+    list-style: none;
+
+}
+.header_navbar-sanpham{
+    list-style: none;
+}
+/*header list*/
+.header_list{
+    background-color:rgb(0, 128, 60);
+    justify-content: space-evenly;
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+.list-js,.list-js__2,.list-js__3,.list-js__4{
+    color: #fff;
+    cursor: pointer;
+    border: 0px;
+    background-color:rgb(0, 128, 60);
+}
+.slider{
+    width: 100%;
+    height: 460px;
+    background-image: url('slide-1.jpg');
+    background-size: 100%;
+}
+
+.control{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    transform: translateY(calc(230px - 50%));
+}
+
+.prev{
+    float: left;
+}
+.next{
+    float:right;
+}
+.header_header a:hover{
+    color:red;
+}
+/*classify*/
+.header_header{
+    background-color:#fff;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.header_header a{
+    color:black;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    line-height: 150px;
+    align-items: center;
+}
+.header_header1{
+    height: 175px;
+    width: 340px;
+    background-image:url('http://cdn0308.cdn4s.com/media/danh-muc/danh-muc-1%20(3).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header_header2{
+    height: 175px;
+    width: 340px;
+    background-image:url('http://cdn0308.cdn4s.com/media/danh-muc/danh-muc-1%20(2).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header_header3{
+    height: 175px;
+    width: 340px;
+    background-image:url('http://cdn0308.cdn4s.com/media/danh-muc/danh-muc-1%20(4).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header_header4{
+    height: 175px;
+    width: 340px;
+    background-image:url('http://cdn0308.cdn4s.com/media/danh-muc/danh-muc-1%20(1).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.select{
+    margin-top: 80px;
+}
+/*select1*/
+.select1{
+    background-color:#fff;
+    width: 100%;
+    height: 210px;
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.table,th,td{
+    width: 320px ;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.haz_hubs{
+    height: 170px;
+    width: 300px;
+    background-image:url('http://cdn0308.cdn4s.com/media/danh-muc/danh-muc-1%20(2).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:20px 0;
+}
+.haz_hubs a:hover{
+    color: green;
+}
+.haz_cap{
+    height: 170px;
+    width: 300px;
+    background-image:url('http://cdn0308.cdn4s.com/media/danh-muc/danh-muc-1%20(4).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20px 0;
+}
+.haz_cap a:hover{
+    color:green;
+}
+.haz_hubs a,.haz_cap a{
+    color:black;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    line-height: 350px;
+    align-items: center;
+}
+
+.table_tb2{
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 200px;
+    width: 320px;
+    margin-right: 200px;
+}
+
+.table_tb1{
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 200px;
+    width: 320px;
+    margin-left: 200px;
+}
+.select2{
+    margin-top:30px;
+    text-align: center;
+}
+/*body*/
+.item-header{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+@keyframes hidden{
+    from{
+        opacity: 0;
+        transform: scale(1);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes disappear{
+    from{
+        opacity: 0;
+        transform: scale(1);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom{
+    from{
+        opacity: 0;
+        transform: scaleX(0);
+    }
+    to{
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+
+
+:root{
+    --text-color:#333;
+    --white-color:#fff;
+    --black-color:#000;
+    --main-color:#f6f6f6;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-family:"Helvetica", sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: var(--main-color);
+}
+
+.item-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item-footer__btn{
+    border: none;
+    font-size: 1.7rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color ease 0.5s;
+    will-change: background-color;
+}
+
+.item-footer__btn:hover{
+    background-color: #009156;
+}
+
+
+/*footer*/
+.footer{
+    margin-top: 50px;
+}
+.boxcenter{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    background-color: white
+}
+
+.row2{
+    width: 30%;
+    font-size:15px
+}
+
+.table{
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color:#fff;
+    display: flex;
+}
+
+.table1{
+    width: 50%;
+    background-color: white;
+}
+
+.icon-container{
+    display:flex;
+
+}
+
+.icon{
+    display:flex;
+    font-size: 25px;
+    margin-right: 30px
+}
+
+.table2{
+    list-style-type: none;
+    width: 25%;
+    overflow: auto;
+}
+.table3{
+    width: 25%;
+    background-color:#fff;
+}
+
+.row_boxfooter2 a:hover,.icon a:hover{
+    color: green;
+}
+
+.icon a,.row_boxfooter2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.hrColor{
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.copyright{
+    margin-top: 450px;
+    text-align: center;
+    cursor:auto;
+    font-size: 13px;
+}
+footer{
+    display: block;
+}
+/*sanpham*/
+.home_page{
+    width: 100%;
+    height: 100px;
+    background-color:#fff;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.home_page a{
+    color: #000;
+    text-decoration: none;
+}
+.product{
+    width: 100%;
+    height: 700px;
+    background-color:#fff;
+    display: flex;
+}
+.product_list{
+    text-align: left;
+    width:20%;
+    height: 400px;
+    margin-left: 0;
+    background-color: #f6f6f6;
+    list-style-type: none;
+    font-size: 15px;
+}
+.product_list a{
+    color: #000;
+    text-decoration: none;
+}
+.product_list a:hover{
+    color: green;
+}
+.ngunam-docking,.ngunam-hub,.ngunam-cap,.ngunam-phukien{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+/*body*/
+.body{
+    position:relative;
+    width: 100%;
+    height: 50%;
+}
+.home_page {
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+.home_page a {
+    text-decoration: none;
+    color: #007bff; /* Màu sắc của liên kết */
+}
+.chitietsanpham .pro_table {
+    border-collapse: collapse; /* Loại bỏ viền của bảng */
+    width: 100%; /* Chiều rộng 100% của bảng */
+    height: auto;
+    border:none;
+}
+
+td {
+    padding: 8px; /* Thêm padding để tạo khoảng cách giữa nội dung và biên của ô */
+}
+
+.chitietsanpham {
+    width: 100%; /* Chiều rộng 50% của trang */
+    margin: 0 auto; /* Căn giữa trang */
+}
+
+.chitietsanpham img {
+    max-width: 100%; /* Đảm bảo ảnh không tràn ra khỏi khung */
+    height: 230%;
+    border: 1px solid #ddd; /* Đường viền cho ảnh */
+    padding: 5px; /* Khoảng cách từ đường viền đến ảnh */
+    margin-left: 20%;
+}
+.chitietsanpham .pro_name{
+    position: absolute;
+    font-size: 20px;
+    top: 30%; /* Set top to 0 to position at the top */
+    margin-left: 0; /* Reset margin-left to align with the top */
+}
+.chitietsanpham p2 {
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    top: 35%; /* Set top to 0 to position at the top */
+    margin-left: 0; /* Reset margin-left to align with the top */
+}
+.chitietsanpham .pro_id {
+    position: absolute;
+    font-size: 15px;
+    top: 40%; /* Set top to 0 to position at the top */
+    margin-left: 0; /* Reset margin-left to align with the top */
+}
+.chitietsanpham b {
+    color: green;
+}
+.chitietsanpham .pro_sl {
+    position: absolute;
+    font-size: 15px;
+    top: 40%; /* Set top to 0 to position at the top */
+    margin-left: 20%; /* Reset margin-left to align with the top */
+}
+.chitietsanpham .pro_mota {
+    position: absolute;
+    font-size: 15px;
+    top:50%;/* Set top to 0 to position at the top */
+    margin-left: 0; /* Reset margin-left to align with the top */
+}
+.chitietsanpham .pro_addcart {
+    position: absolute;
+    font-size: 15px;
+    top:45%; /* Set top to 0 to position at the top */
+    margin-left: 15%; /* Reset margin-left to align with the top */
+}
+.chitietsanpham .pro_buy {
+    position: absolute;
+    font-size: 15px;
+    top:45%; /* Set top to 0 to position at the top */
+    margin-left: 25%; /* Reset margin-left to align with the top */
+}
+/* giá tri so luong mua*/
+.chitietsanpham .product-quantity {
+    position: absolute;
+    top:45%; /* Set top to 0 to position at the top */
+    margin-left:2%; /* Reset margin-left to align with the top */
+}
+
+.btn-quantity {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.quantity-input {
+    text-align: center;
+    width: 40px;
+    margin: 0 10px;
+}
+/* Bình luan và danh giá */
+.comment-section {
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.comment-list {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.user-info {
+    flex: 1;
+    font-weight: bold;
+}
+
+.comment-details {
+    flex: 4;
+}
+
+.comment-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comment-form{
+    width: 60%;
+    margin-left:10%;
+}
+.btn_xemthem{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_xemthem:hover {
+    background-color: #45a049;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.comment-list .comment-details p {
+    display: flex;
+    align-items: center;
+}
+
+.comment-list .comment-details p::after {
+    content: '\00a0'; /* Add some space between rating text and stars */
+}
+
+.star-icons {
+    color: #FFD700; /* Màu của ngôi sao, có thể điều chỉnh */
+    font-size: 20px; /* Kích thước ngôi sao, có thể điều chỉnh */
+    margin-top: 5px; /* Khoảng cách giữa đánh giá và ngôi sao, có thể điều chỉnh */
+}
+
+select[name="rating"] {
+    background-color: transparent;
+    font-size: 16px;
+    color: #333; /* Màu văn bản mặc định */
+}
+
+select[name="rating"] option {
+    color: #FFD700; /* Màu vàng */
+}
